@@ -6,7 +6,7 @@ const socketIO = require('socket.io')
 const port = 4001
 
 const app = express()
-const asher = "asher"
+
 // our server instance
 const server = http.createServer(app)
 
