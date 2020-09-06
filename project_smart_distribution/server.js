@@ -11,7 +11,7 @@ var cors = require('cors');
 const port = 4001
 const router = express.Router();
 const app = express()
-const asher = "asher"
+
 // our server instance
 const server = http.createServer(app)
 
