@@ -7,13 +7,14 @@
     "start": "node ./bin/www",
     "test": "echo \"Error: no test specified\" && exit 1",
     "mongo": "node mongo.js",
-    "add": "node adduser.js", 
-    "list": "node listusers.js" 
+    "add": "node adduser.js",
+    "list": "node listusers.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cookie-parser": "^1.4.5",
+    "create-react-app": "^3.4.1",
     "express": "^4.16.4",
     "mongoose": "^5.9.25",
     "morgan": "^1.10.0",
