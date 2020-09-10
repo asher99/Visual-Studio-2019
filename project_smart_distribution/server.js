@@ -19,7 +19,8 @@ const server = http.createServer(app)
 const io = socketIO(server)
 // this is our MongoDB database
 const dbRoute =
-  'mongodb+srv://5xCl4aayxNprGQNn:<password>@cluster0.0muup.mongodb.net/<dbname>?retryWrites=true&w=majority';
+  'mongodb+srv://asher:<chagay>@smart.2oy4a.mongodb.net/<smart>?retryWrites=true&w=majority';
+  
 // connects our back end code with the database
 mongoose.connect(dbRoute, { useNewUrlParser: true });
 
