@@ -21,7 +21,8 @@ module.exports = db => {
         password: { type: String, required: true },
         admin: Boolean,
         location: String,
-        meta: { age: Number, website: String },
+        email:string,
+        phone:string,
         created_at: Date,
         updated_at: Date
     }, { autoIndex: false });
@@ -36,7 +37,10 @@ module.exports = db => {
             name: user[0],
             username: user[1],
             password: user[2],
-            admin: user[3]
+            admin: user[3],
+            location: user[4],
+            email: user[5],
+            phone: user[6]
         });
     }
     
