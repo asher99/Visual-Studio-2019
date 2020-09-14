@@ -4,7 +4,8 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const logger = require('morgan');
 const Data = require('./model/data');
-const MyData = require('./model/myData');
+const Area = require('./model/area');
+const User = require('./model/user');
 var cors = require('cors');
 
 // our localhost port
