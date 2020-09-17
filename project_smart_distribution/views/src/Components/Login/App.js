@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
-import Header from "./Components/Header";
-import Login from "./Components/Login";
+import Header from "../Header";
+import Login from "../Login";
 
 export default function App() {
   return (
@@ -11,3 +11,4 @@ export default function App() {
     </div>
   );
 }
+

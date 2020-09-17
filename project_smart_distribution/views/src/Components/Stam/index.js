@@ -42,7 +42,7 @@ export default class Stam extends Component {
   // our first get method that uses our backend api to
   // fetch data from our data base
   getDataFromDb = () => {
-    fetch('http://localhost:/api/getData3001')
+    fetch('http://localhost:/api/getData4001')
       .then((data) => data.json())
       .then((res) => this.setState({ data: res.data }));
   };

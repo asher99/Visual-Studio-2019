@@ -1,12 +1,19 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react';
+import Button from '../../Components/Button'
 
-import App from "./App";
+export default class Home extends React.Component {
 
-const rootElement = document.getElementById("root");
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  rootElement
-);
+  navigateTo(key) {
+    this.props.history.push(key);
+  }
+render(){
+
+  
+  return (
+
+      <Button css={"PrimaryButton"} title={"Login"} width={"w100px"} onClick={this.navigateTo.bind(this, '/login')}/>  
+
+  );
+}
+
+}

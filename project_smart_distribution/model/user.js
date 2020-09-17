@@ -2,7 +2,7 @@ const debug = require("debug")("mongo:model-user");
 const mongo = require("mongoose");
 
 // on every save, add the date
-schema.pre('save', function(next) {
+/* schema.pre('save', function(next) {
     // get the current date
     let currentDate = new Date();
     // change the updated_at field to current date
@@ -11,7 +11,8 @@ schema.pre('save', function(next) {
     if (!this.created_at)
         this.created_at = currentDate;
     next();
-});
+}); */
+
 
 
 module.exports = db => {
@@ -21,13 +22,13 @@ module.exports = db => {
         password: { type: String, required: true },
         admin: Boolean,
         location: String,
-        email:string,
-        phone:string,
+        email:String,
+        phone:String,
         created_at: Date,
         updated_at: Date
     }, { autoIndex: false });
-    
-    }
+
+          
 
     db.model('User', schema); // if model name === collection name
     debug("User model created");
@@ -43,6 +44,7 @@ module.exports = db => {
             phone: user[6]
         });
     }
+}
     
 
     

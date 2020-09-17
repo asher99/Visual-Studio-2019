@@ -1,0 +1,19 @@
+:root {
+    --black-color:#000000;
+    --red-color: #E20338;
+    --header-height: 73px;
+    --footer-height: 30px;
+    /* --light-gray-color: blue; */
+    --light-gray-color: #f2f2f2;
+    --white-color: #ffffff;
+    --silver-color: #b0bec5;
+    --regular-font: 'Roboto', sans-serif;
+    --footer-color: #585858;
+    --chat-text-color: rgb(66, 91, 118);
+    --filter-color: #e0e0e0;
+    --outgoing-background: #dcf8c6;
+    --phone-width: 479px;
+    --tablet-width: 767px;
+    --desktop-width: 1000px;
+    --success-green-color: #00c400;
+}

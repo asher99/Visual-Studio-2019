@@ -5,7 +5,7 @@ const Schema = mongoose.Schema;
 // this will be our data base's data structure 
 const DataSchema = new Schema(
   {
-    areaName: string,
+    areaName: String,
     deliver: String
   },
   { timestamps: true }
