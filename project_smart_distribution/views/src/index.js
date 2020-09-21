@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './Containers/App';
-import Home from './Components/Login'
 import * as serviceWorker from './serviceWorker';
 
 const rootElement = document.getElementById("root");

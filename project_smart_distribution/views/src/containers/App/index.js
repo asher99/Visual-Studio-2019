@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 import autoBind from 'react-autobind';
-import Login from '../../Components/Login';
+import Login from '../Login/Login';
 import Home from '../Home'
 // import About from '../About';
 // import Catalog from '../Catalog';
